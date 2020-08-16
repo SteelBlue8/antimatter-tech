@@ -1,0 +1,16 @@
+name:Unpackager
+description: Removes the plastanium packaging from Sealed antimatter.
+consumes: {
+	items: {
+		items: [
+			sealed-antimatter/1
+		]
+	}
+}
+requirements: [
+	plastanium/10
+	silicon/50
+	titanium/10
+]
+category: crafting
+research: unpackager

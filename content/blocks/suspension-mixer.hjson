@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Suspension mixer
+description: Combines raw antimatter and heavy oil to produce suspended antimatter
+buildVisibility:shown
+category:crafting
+health:500
+size:2
+
+outputLiquid:suspended-antimatter/1
+
+consumes: {
+  power: 5
+  items: {
+      items:[
+      antimatter/1
+    ]
+  }
+  liquid: {
+    liquid:heavy-oil
+    amount:0.1
+  }
+}
+research:cryofluidmixer
+requirements: [
+  plastanium-circuitboard/50
+  thorium/50
+  lead/500
+  silicon/200
+]

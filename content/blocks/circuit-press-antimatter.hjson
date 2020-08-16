@@ -1,0 +1,21 @@
+type:GenericSmelter
+name:Antimatter circuit press
+description: Creates antimatter circuitboards ready for industrial use
+category:crafting
+size:2
+outputItem:antimatter-circuitboard/1
+
+consumes: {
+  power: 10
+  items: {
+      items:[
+      surge-circuitboard/2
+      sealed-antimatter/2]
+  }
+}
+research:circuit-press-surge
+requirements: [
+  titanium/150
+  sealed-antimatter/50
+  surge-alloy/50
+]

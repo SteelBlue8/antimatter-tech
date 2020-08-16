@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Thorium filter
+description: Filters small amounts of thorium from sand
+itemCapacity:40
+buildVisibility:shown
+category:crafting
+health:200
+size:3
+
+outputItem:thorium/1
+
+consumes: {
+  power: 5
+  items: {
+      items:[
+      sand/20
+    ]
+  }
+}
+
+research:separator
+requirements: [
+  thorium/50
+  silicon/250
+  titanium/100
+  plastanium-circuitboard/10
+]

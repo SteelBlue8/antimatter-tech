@@ -1,0 +1,35 @@
+type: itemTurret
+name: Burst
+description: A miniaturized swarmer with a long reload time
+targetAir: true
+targetGround: true
+health: 100
+size: 1
+reload: 160
+shootCone: 25
+range: 150
+recoil: 2
+xRand:16
+inaccuracy:50
+
+ammo: {
+  silicon:{
+    type:MissileBulletType
+    damage: 20
+    speed:5
+    weaveMag:0.2
+    homingPower:0.5
+    homingRange: 10
+    lifetime:240
+  }
+}
+
+requirements: [
+  silicon/50
+  copper-circuitboard/50
+  graphite/100
+  plastanium/50
+]
+
+category: turret
+research: swarmer

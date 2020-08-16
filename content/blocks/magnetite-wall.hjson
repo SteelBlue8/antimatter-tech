@@ -1,0 +1,8 @@
+name: Magnetite Wall
+description: A relatively weak wall, but with an attractive effect on nearby enemies
+type: Wall
+health: 400
+size:1
+category:defense
+requirements:[magnetite/6]
+research: titanium-wall-large

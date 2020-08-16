@@ -1,0 +1,22 @@
+type:GenericSmelter
+name:Plastanium circuit press
+description: Creates plastanium circuitboards ready for industrial use
+category:crafting
+size:2
+outputItem:plastanium-circuitboard/1
+
+consumes: {
+  power: 7
+  items: {
+      items:[
+      blank-circuitboard/2
+      plastanium/1]
+  }
+}
+
+research:circuit-press-copper
+requirements: [
+  titanium/100
+  magnetite/50
+  silicon/50
+]

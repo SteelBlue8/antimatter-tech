@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Packager
+description: Seals antimatter with plastanium, making it safer and more useful for construction
+buildVisibility:shown
+category:crafting
+health:500
+size:2
+
+outputItem:sealed-antimatter/1
+
+consumes: {
+  power: 5
+  items: {
+      items:[
+      antimatter/1
+      plastanium/1
+    ]
+  }
+}
+
+research:particle-accelerator
+requirements: [
+  plastanium/100
+  thorium/50
+  lead/500
+  silicon/200
+]

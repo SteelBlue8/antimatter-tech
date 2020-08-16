@@ -1,0 +1,40 @@
+type: DoubleTurret
+name: Tempest
+description: A double barreled, medium range air defense
+targetAir: true
+targetGround: false
+health: 250
+size: 2
+reload: 5
+shootCone: 25
+recoil: 2
+
+ammo: {
+  metaglass:{
+    type:BasicBulletType
+    damage:18
+    speed:10
+    drag:0
+  }
+  graphite:{
+    type:BasicBulletType
+    damage:12
+    speed:8
+    drag:-1
+  }
+  titanium:{
+    type:BasicBulletType
+    damage:30
+    speed:12
+    drag:-2
+  }
+}
+
+requirements: [
+  lead/50
+  titanium/50
+  graphite/100
+]
+
+category: turret
+research: salvo

@@ -1,0 +1,9 @@
+name: Large Antimatter Wall
+description: A larger version of the antimatter wall
+type: DeflectorWall
+maxDamageDeflect: 40
+health: 6000
+size:2
+category:defense
+requirements:[sealed-antimatter/24]
+research: antimatter-wall

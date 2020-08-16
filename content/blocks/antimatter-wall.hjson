@@ -1,0 +1,9 @@
+name: Antimatter Wall
+description: A very strong wall, with the ability to absorb most shots
+type: DeflectorWall
+maxDamageDeflect: 40
+health: 1500
+size:1
+category:defense
+requirements:[sealed-antimatter/6]
+research: phase-wall-large

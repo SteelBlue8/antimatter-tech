@@ -1,0 +1,22 @@
+type:GenericSmelter
+name:Circuit inscriber
+description: Creates blank circuitboards ready to be used for electronics
+category:crafting
+size:2
+outputItem:blank-circuitboard/1
+
+consumes: {
+  power: 5
+  items: {
+      items:[
+      silicon/2]
+  }
+}
+
+research:alloy-smelter
+
+requirements: [
+  titanium/100
+  lead/50
+  silicon/50
+]

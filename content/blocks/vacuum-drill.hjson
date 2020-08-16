@@ -1,0 +1,30 @@
+type: Drill
+name: Vacuum drill
+description: An incredibly powerful drill that uses suspended antimatter to destroy ores at the atomic level.
+buildVisibility:shown
+category:production
+health:600
+size:5
+drillTime:100
+rotateSpeed:8
+drillEffect:mineBig
+tier:5
+drawRim:true
+
+consumes: {
+  liquid:{
+    liquid: suspended-antimatter
+    amount:0.05
+  }
+  power:10
+}
+
+research:blast-drill
+requirements: [
+  surge-circuitboard/50
+  sealed-antimatter/250
+  lead/500
+  antimatter-circuitboard/25
+  silicon/100
+  metaglass/100
+]

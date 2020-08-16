@@ -1,0 +1,11 @@
+type: Conveyor
+name: Magnetite conveyor
+description: A fast conveyor that uses magnetism instead of mechanical motion. Must be within range of a conveyor driver.
+requirements: [
+  magnetite/3
+  copper-circuitboard/3
+  lead/3
+]
+category: distribution
+speed: 0.08
+research: titanium-conveyor

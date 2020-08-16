@@ -1,0 +1,36 @@
+type: ItemTurret
+name: Comet
+description: A close ranged rapidfire turret that deals large amounts of damage.
+buildVisibility:shown
+health: 4000
+size: 4
+reload: 5
+range: 150
+ammoUseEffect: shellEjectSmall
+inaccuracy: 1
+rotatespeed: 10
+recoil: 5
+restitution: 1
+shootShake: 5
+ammo: {
+  thorium: {
+    type:FlakBulletType
+    frontColor: #ff00bb
+    backColor: #ff00bb
+    speed: 10
+    damage: 80
+    bulletWidth: 10
+    bulletHeight: 30
+    shootEffect: explosion
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  sealed-antimatter/50
+  plastanium/100
+  graphite/250
+  titanium/250
+]
+category: turret
+research: fuse

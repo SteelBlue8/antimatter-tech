@@ -1,0 +1,21 @@
+type:GenericSmelter
+name:Copper circuit press
+description: Creates copper circuitboards ready for industrial use
+category:crafting
+size:2
+outputItem:copper-circuitboard/1
+
+consumes: {
+  power: 6
+  items: {
+      items:[
+      blank-circuitboard/2
+      copper/1]
+  }
+}
+research: circuit-inscriber
+requirements: [
+  titanium/100
+  graphite/50
+  silicon/50
+]

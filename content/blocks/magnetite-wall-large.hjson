@@ -1,0 +1,8 @@
+name: Large Magnetite Wall
+description: A larger version of the magnetite wall
+type: Wall
+health: 1600
+size:2
+category:defense
+requirements:[magnetite/24]
+research: magnetite-wall

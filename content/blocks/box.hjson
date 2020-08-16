@@ -1,0 +1,12 @@
+name: Box
+description: Stores a tiny amount of items of each type.
+type: Vault
+itemCapacity: 100
+hasItems: true
+health: 50
+size: 1
+requirements: [
+  titanium/50
+]
+category: effect
+research: bank

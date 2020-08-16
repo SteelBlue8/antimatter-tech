@@ -1,0 +1,13 @@
+name: Bank
+description: Stores a huge amount of items of each type.
+type: Vault
+itemCapacity: 4000
+hasItems: true
+health: 500
+size: 4
+requirements: [
+  titanium/400
+  thorium/200
+]
+category: effect
+research: vault

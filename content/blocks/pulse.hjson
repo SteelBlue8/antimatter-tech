@@ -1,0 +1,29 @@
+type: LaserTurret
+name: Pulse
+description: Fires powerful laser beams that deal large amounts of damage but do not last long
+targetAir: true
+targetGround: true
+health: 1500
+size: 3
+reload: 2
+shootCone: 25
+shootType: meltdownLaser
+powerUse: 7
+range: 280
+shootShake: 3
+firingMoveFract: 0.5
+shootDuration: 10
+recoil: 2
+shootSound: laser
+shootEffect: shootBigSmoke2
+activeSound: beam
+
+requirements: [
+  surge-circuitboard/150
+  graphite/100
+  silicon/500
+  sealed-antimatter/250
+]
+
+category: turret
+research: meltdown

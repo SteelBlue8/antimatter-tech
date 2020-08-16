@@ -1,0 +1,28 @@
+type: ChargeTurret
+name: Bayonet
+description: An upgraded lancer with a faster firing rate and the ability to target air units
+targetAir: true
+targetGround: true
+health: 1500
+size: 2
+reload: 10
+powerUse: 5
+
+shootCone: 25
+range: 200
+recoil: 2
+shootSound: laser
+shootEffect: shootBigSmoke2
+activeSound: beam
+chargeTime: 60
+
+shootType: lancerLaser
+
+requirements: [
+  silicon/150
+  graphite/50
+  lead/100
+]
+
+category: turret
+research: lancer

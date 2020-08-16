@@ -1,0 +1,22 @@
+type:GenericSmelter
+name:Surge circuit press
+description: Creates surge circuitboards ready for industrial use
+category:crafting
+size:2
+outputItem:surge-circuitboard/1
+
+consumes: {
+  power: 7
+  items: {
+      items:[
+      copper-circuitboard/2
+      surge-alloy/1]
+  }
+}
+
+research:circuit-press-copper
+requirements: [
+  titanium/100
+  thorium/50
+  silicon/50
+]

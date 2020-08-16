@@ -1,0 +1,24 @@
+type:GenericCrafter
+name:Oil press
+description: Manufactures heavy oil from plastanium and oil
+category:crafting
+size:2
+outputLiquid:heavy-oil/2
+
+consumes: {
+  power: 5
+  items: {
+      items:[
+      plastanium/1]
+  }
+  liquid:{
+    liquid:oil
+    amount:0.2
+  }
+}
+research:plastanium-compressor
+requirements: [
+  titanium/100
+  plastanium-circuitboard/50
+  silicon/50
+]

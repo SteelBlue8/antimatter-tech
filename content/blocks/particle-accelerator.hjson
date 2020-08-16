@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Particle Accelerator
+description: Subjects thorium to extreme conditions, producing small amounts of antimatter
+buildVisibility:shown
+category:crafting
+health:500
+size:4
+
+outputItem:antimatter/1
+
+consumes: {
+  power: 20
+  items: {
+      items:[
+      thorium/10
+      surge-alloy/2
+    ]
+  }
+}
+
+research:phase-weaver
+requirements: [
+  surge-circuitboard/250
+  thorium/250
+  silicon/500
+  titanium/250
+]
