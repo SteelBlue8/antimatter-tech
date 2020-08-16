@@ -1,0 +1,8 @@
+name: Suspended antimatter
+description: Small particles of antimatter suspended by the insulating properties of heavy oil. Highly destructive.
+color:c074e3
+flammability:0
+temperature:0.7
+viscosity:0.6
+explosiveness:0
+effect:corroded
