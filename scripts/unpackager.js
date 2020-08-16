@@ -1,3 +1,5 @@
+//Code is from https://github.com/Gdeft/substructure/blob/master/scripts/multioutputcrafter.js as I cannot actually do scripting myself, I barely understand how this works. 
+
 const unpackager = extendContent(GenericCrafter, "unpackager", {
 	init(){
 	  this.outputItems = [
