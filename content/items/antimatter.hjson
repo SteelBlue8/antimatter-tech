@@ -1,0 +1,7 @@
+type: resource
+name: Antimatter
+description: A highly radioactive and destructive substance used in advanced technologies
+explosiveness: 100
+radioactivity:1
+cost: 6
+color: c074e3
