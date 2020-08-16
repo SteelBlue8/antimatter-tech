@@ -1,0 +1,8 @@
+name: Heavy oil
+description: A dense, resistive substance used in a few specialized applications
+color:213b24
+flammability:0
+temperature:0.3
+viscosity:0.9
+explosiveness:0
+effect:tarred
