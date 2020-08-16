@@ -1,0 +1,5 @@
+type: material
+name: Magnetite
+description: A relatively dense metal with magnetic properties
+cost: 3
+color:5f5f69

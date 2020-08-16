@@ -1,0 +1,5 @@
+type: material
+name: Copper circuitboard
+description: A basic circuit used for a wide variety of machines
+cost: 2
+color:8f665b

@@ -1,0 +1,5 @@
+type: material
+name: Blank circuitboard
+description: A silicon chip etched with patterns ready for electronics use
+cost: 1
+color:52525c

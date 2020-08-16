@@ -1,0 +1,5 @@
+type: material
+name: Plastanium circuitboard
+description: A resistive circuit used to keep high energy machinery from burning out
+cost: 3
+color:9cb664
