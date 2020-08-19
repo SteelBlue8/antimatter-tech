@@ -1,6 +1,6 @@
 type: material
 name: Sealed Antimatter
-description: Antimatter that has been stabilized in plastanium, making it suitable for industrial applications
+description: Antimatter that has been stabilized in plastanium, making it suitable for industrial applications and long term storage
 explosiveness: 10
 radioactivity:0.5
 cost: 6
