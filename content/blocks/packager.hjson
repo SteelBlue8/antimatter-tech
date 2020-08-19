@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Packager
-description: Seals antimatter with plastanium, making it safer and more useful for construction
+description: Seals antimatter with plastanium, making it safer and more useful for construction and storage.
 buildVisibility:shown
 category:crafting
 health:500
