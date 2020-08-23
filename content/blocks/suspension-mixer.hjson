@@ -17,7 +17,7 @@ consumes: {
   }
   liquid: {
     liquid:heavy-oil
-    amount:0.1
+    amount:0.05
   }
 }
 research:cryofluidmixer
