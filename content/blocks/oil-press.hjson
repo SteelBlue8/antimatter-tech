@@ -13,7 +13,7 @@ consumes: {
   }
   liquid:{
     liquid:oil
-    amount:0.2
+    amount:0.01
   }
 }
 research:plastanium-compressor
