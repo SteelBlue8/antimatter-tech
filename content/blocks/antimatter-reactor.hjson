@@ -18,9 +18,9 @@ consumes: {
   }
   liquid:{
     liquid: cryofluid
-    amount:5
+    amount:1
   }
-  power:80
+  power:85
 }
 
 research:impact-reactor
