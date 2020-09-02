@@ -1,7 +1,7 @@
 name: Box
 description: Stores a tiny amount of items of each type.
 type: Vault
-itemCapacity: 100
+itemCapacity: 70
 hasItems: true
 health: 50
 size: 1
