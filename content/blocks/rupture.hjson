@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Rupture
-description: Fires extremely high-speed and high-damage shells, but has a very long reload time
+description: Designed to fire regular bullets but antimatter gets a bit... funky
 buildVisibility:shown
 health: 4000
 size: 4
@@ -50,10 +50,10 @@ ammo: {
     pierce:false
     splashDamage: 40
     splashDamageRadius: 90
-    fragBullets:7
-    fragBullet:arc
+    fragBullets:1
+    fragBullet:singularityBullet
     speed: 100
-    damage: 200
+    damage: 40
     bulletWidth:10
     bulletHeight: 50
     ammoMultiplier:10
