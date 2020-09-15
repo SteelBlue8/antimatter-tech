@@ -8,32 +8,33 @@ size: 2
 reload: 5
 shootCone: 25
 recoil: 2
+range: 80
 
 ammo: {
   metaglass:{
     type:BasicBulletType
-    damage:18
+    damage:7
     speed:10
     drag:0
   }
   graphite:{
     type:BasicBulletType
-    damage:12
+    damage:5
     speed:8
     drag:-1
   }
   titanium:{
     type:BasicBulletType
-    damage:30
+    damage:12
     speed:12
     drag:-2
   }
 }
 
 requirements: [
-  lead/50
+  lead/90
   titanium/50
-  graphite/100
+  metaglass/20
 ]
 
 category: turret
